@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Генератор UTM Меток</title>
+</head>
+<body>
+  
+  <div id="app">
+    
+    <!-- Заголовок -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Генератор UTM Меток</h1>
+        </div>
+      </div>
+    </div>
+    <!-- /Заголовок -->
+
+    <!-- Адрес сайта -->
+    <div class="container py-4 url">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Укажите адрес сайта">
+        </div>
+      </div>
+    </div>
+    <!-- /Адрес сайта -->
+
+    <!-- Источник трафика -->
+    <div class="container trafic mb-4">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="text-center mb-3">Источник трафика:</h4>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 text-center" id="traf_type">
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="traf_type_yandex" checked>Яндекс Директ
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="traf_type_google">Google Ads
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="traf_type_any">Иное
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Источник трафика -->
+
+    <!-- Дополнительные поля -->
+    <div class="container mb-3">
+
+      <div class="row">
+        <div class="col-md-3 offset-md-3 mb-3">
+          <label for="utm_source">utm_source</label>
+          <input type="text" name="utm_source" class="form-control" id="utm_source">
+        </div>
+        <div class="col-md-3">
+          <label for="utm_medium">utm_medium</label>
+          <input type="text" name="utm_medium" class="form-control" id="utm_medium">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 offset-md-3 mb-3">
+          <label for="utm_campaign">utm_campaign</label>
+          <input type="text" name="utm_campaign" class="form-control" id="utm_campaign">
+        </div>
+        <div class="col-md-3">
+          <label for="utm_content">utm_content</label>
+          <input type="text" name="utm_content" class="form-control" id="utm_content">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 offset-md-4 mb-3 text-center">
+          <label for="utm_term">utm_term</label>
+          <input type="text" name="utm_term" class="form-control" id="utm_term">
+        </div>
+      </div>
+    </div>
+    <!-- /Дополнительные поля -->
+
+    <!-- Кнопка -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+          <button class="btn btn-primary" id="btn">Получить ссылку</button>
+        </div>
+      </div>
+    </div>
+    <!-- /Кнопка -->
+
+    <!-- Резуьтат -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 text-center d-none" id=result>
+          http:google.com
+        </div>
+      </div>
+    </div>
+    <!-- Резуьтат -->
+
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
