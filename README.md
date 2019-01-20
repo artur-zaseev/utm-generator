@@ -7,6 +7,6 @@
 </p>
 
 <p>
-  Посмотреть работающую версию можно здесь: <a href="http://zaseev.pro">zaseev.pro</a><br>
+  Посмотреть работающую версию можно здесь: <a href="http://zaseev.pro/lab/utm-generator/">zaseev.pro</a><br>
   Для сборки используется: <a href="https://github.com/parcel-bundler/parcel">Parcel.js</a>
 </p>
