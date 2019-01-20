@@ -1,0 +1,26 @@
+html {}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #1d1d1d;
+  color: #FFF;
+  font-size: 18px;
+  background: rgba(0,128,79,1);
+  background: -moz-linear-gradient(top, rgba(0,128,79,1) 0%, rgba(25,191,130,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,128,79,1)), color-stop(100%, rgba(25,191,130,1)));
+  background: -webkit-linear-gradient(top, rgba(0,128,79,1) 0%, rgba(25,191,130,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,128,79,1) 0%, rgba(25,191,130,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,128,79,1) 0%, rgba(25,191,130,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,128,79,1) 0%, rgba(25,191,130,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00804f', endColorstr='#19bf82', GradientType=0 );
+  overflow-x: hidden;
+}
+#app {
+  width: 100%
+}
+h1 {font-size: 30px;}
+
+.url {}
+.url .form-control:focus {box-shadow: none; outline: none; border-color: #FFF;}
+.trafic {}
+.trafic label {margin: 0 15px}
