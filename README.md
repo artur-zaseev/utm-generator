@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="http://zaseev.pro/lab/utm-generator/">
-    <img src="http://zaseev.pro/public_html/lab/utm-generator/img/img-01.png">
+    <img src="http://zaseev.pro/lab/utm-generator/img/img-01.png">
   </a>
 </p>
 
